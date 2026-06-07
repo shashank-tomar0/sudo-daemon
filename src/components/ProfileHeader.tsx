@@ -53,14 +53,10 @@ export default function ProfileHeader({
             <Tooltip
               preferredPosition="below"
               content={
-                <Image
-                  width={3024}
-                  height={1720}
-                  src="/images/github.jpg"
-                  alt="GitHub"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">GitHub Profile</span>
+                  <span className="text-[11px] text-neutral-500">@{portfolioConfig.githubUsername}</span>
+                </div>
               }>
               <a
                 className="neo-button flex items-center justify-center w-10 h-10 bg-white dark:bg-black text-black dark:text-primary rounded-none hover:bg-neutral-200 dark:hover:bg-neutral-900"
@@ -76,14 +72,10 @@ export default function ProfileHeader({
             <Tooltip
               preferredPosition="below"
               content={
-                <Image
-                  width={1206}
-                  height={1220}
-                  src="/images/x.jpg"
-                  alt="Twitter"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">X / Twitter</span>
+                  <span className="text-[11px] text-neutral-500">@shashank1tomar</span>
+                </div>
               }>
               <a
                 className="neo-button flex items-center justify-center w-10 h-10 bg-white dark:bg-black text-black dark:text-primary rounded-none hover:bg-neutral-200 dark:hover:bg-neutral-900"
@@ -99,14 +91,10 @@ export default function ProfileHeader({
             <Tooltip
               preferredPosition="below"
               content={
-                <Image
-                  width={1076}
-                  height={1394}
-                  src="/images/resume.jpg"
-                  alt="Resume"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">Resume / CV</span>
+                  <span className="text-[11px] text-neutral-500">View on Google Drive</span>
+                </div>
               }>
               <a
                 className="neo-button flex items-center justify-center w-10 h-10 bg-white dark:bg-black text-black dark:text-primary rounded-none hover:bg-neutral-200 dark:hover:bg-neutral-900"
@@ -123,14 +111,10 @@ export default function ProfileHeader({
             <Tooltip
               preferredPosition="below"
               content={
-                <Image
-                  width={1596}
-                  height={1108}
-                  src="/images/linkedin.jpg"
-                  alt="LinkedIn"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">LinkedIn Profile</span>
+                  <span className="text-[11px] text-neutral-500">@shashank1tomar</span>
+                </div>
               }>
               <a
                 className="neo-button flex items-center justify-center w-10 h-10 bg-white dark:bg-black text-black dark:text-primary rounded-none hover:bg-neutral-200 dark:hover:bg-neutral-900"

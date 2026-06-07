@@ -46,15 +46,11 @@ export default function Reachout({
             <Tooltip 
               preferredPosition="above"
               content={
-                <Image
-                  width={3024}
-                  height={1720}
-                  src="/images/github.jpg"
-                  alt="GitHub"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
-            }>
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">GitHub Profile</span>
+                  <span className="text-[11px] text-neutral-500">@{portfolioConfig.githubUsername}</span>
+                </div>
+              }>
               <a 
                 className="flex items-center justify-center sm:justify-start space-x-0 sm:space-x-3 hover:opacity-80 transition-all duration-200 group p-3 sm:px-3 sm:py-3 lg:p-0 rounded-full sm:rounded-lg bg-gray-100/80 dark:bg-[hsl(0,3%,6.5%)] sm:bg-gray-50/50 sm:dark:bg-gray-800/30 lg:bg-transparent lg:dark:bg-transparent border border-gray-200/60 dark:border-gray-700/60 sm:border-gray-200/50 sm:dark:border-gray-700/50 lg:border-none hover:bg-gray-200/80 dark:hover:bg-gray-700/70 sm:hover:bg-gray-100/50 sm:dark:hover:bg-gray-700/40 lg:hover:bg-transparent lg:dark:hover:bg-transparent" 
                 href={socialLinks.github} 
@@ -79,15 +75,11 @@ export default function Reachout({
             <Tooltip 
               preferredPosition="above"
               content={
-                <Image
-                  width={1206}
-                  height={1220}
-                  src="/images/x.jpg"
-                  alt="Twitter"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
-            }>
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">X / Twitter</span>
+                  <span className="text-[11px] text-neutral-500">@shashank1tomar</span>
+                </div>
+              }>
               <a 
                 className="flex items-center justify-center sm:justify-start space-x-0 sm:space-x-3 hover:opacity-80 transition-all duration-200 group p-3 sm:px-3 sm:py-3 lg:p-0 rounded-full sm:rounded-lg bg-gray-100/80 dark:bg-[hsl(0,3%,6.5%)] sm:bg-gray-50/50 sm:dark:bg-gray-800/30 lg:bg-transparent lg:dark:bg-transparent border border-gray-200/60 dark:border-gray-700/60 sm:border-gray-200/50 sm:dark:border-gray-700/50 lg:border-none hover:bg-gray-200/80 dark:hover:bg-gray-700/70 sm:hover:bg-gray-100/50 sm:dark:hover:bg-gray-700/40 lg:hover:bg-transparent lg:dark:hover:bg-transparent" 
                 href={socialLinks.twitter} 
@@ -112,15 +104,11 @@ export default function Reachout({
             <Tooltip 
               preferredPosition="above"
               content={
-                <Image
-                  width={1596}
-                  height={1108}
-                  src="/images/linkedin.jpg"
-                  alt="LinkedIn"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
-            }>
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">LinkedIn Profile</span>
+                  <span className="text-[11px] text-neutral-500">@shashank1tomar</span>
+                </div>
+              }>
               <a 
                 className="flex items-center justify-center sm:justify-start space-x-0 sm:space-x-3 hover:opacity-80 transition-all duration-200 group p-3 sm:px-3 sm:py-3 lg:p-0 rounded-full sm:rounded-lg bg-gray-100/80 dark:bg-[hsl(0,3%,6.5%)] sm:bg-gray-50/50 sm:dark:bg-gray-800/30 lg:bg-transparent lg:dark:bg-transparent border border-gray-200/60 dark:border-gray-700/60 sm:border-gray-200/50 sm:dark:border-gray-700/50 lg:border-none hover:bg-gray-200/80 dark:hover:bg-gray-700/70 sm:hover:bg-gray-100/50 sm:dark:hover:bg-gray-700/40 lg:hover:bg-transparent lg:dark:hover:bg-transparent" 
                 href={socialLinks.linkedin} 
@@ -167,15 +155,11 @@ export default function Reachout({
             <Tooltip 
               preferredPosition="above"
               content={
-                <Image
-                  width={1076}
-                  height={1394}
-                  src="/images/resume.jpg"
-                  alt="Resume"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
-            }>
+                <div className="flex flex-col gap-0.5 p-1 select-none">
+                  <span className="font-semibold text-neutral-800 dark:text-neutral-200 text-xs">Resume / CV</span>
+                  <span className="text-[11px] text-neutral-500">View on Google Drive</span>
+                </div>
+              }>
               <a 
                 className="flex items-center justify-center sm:justify-start space-x-0 sm:space-x-3 hover:opacity-80 transition-all duration-200 group p-3 sm:px-3 sm:py-3 lg:p-0 rounded-full sm:rounded-lg bg-gray-100/80 dark:bg-[hsl(0,3%,6.5%)] sm:bg-gray-50/50 sm:dark:bg-gray-800/30 lg:bg-transparent lg:dark:bg-transparent border border-gray-200/60 dark:border-gray-700/60 sm:border-gray-200/50 sm:dark:border-gray-700/50 lg:border-none hover:bg-gray-200/80 dark:hover:bg-gray-700/70 sm:hover:bg-gray-100/50 sm:dark:hover:bg-gray-700/40 lg:hover:bg-transparent lg:dark:hover:bg-transparent flex-shrink-0 touch-manipulation" 
                 href={socialLinks.resume} 
