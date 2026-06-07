@@ -13,7 +13,7 @@ interface CallToActionProps {
 }
 
 export default function CallToAction({
-  profileImage = `${portfolioConfig.socials.github}.png`,
+  profileImage = portfolioConfig.avatar,
   profileAlt = portfolioConfig.name,
   linkText = "Get in Touch",
   linkUrl = portfolioConfig.socials.calendar,

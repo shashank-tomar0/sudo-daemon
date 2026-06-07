@@ -28,7 +28,7 @@ export default function NewHeroSection() {
           {/* Banner Section */}
           <Reveal delay={0.1} duration={0.8} amount={0.2}>
             <BannerSection
-              bannerImage="/psudokit_banner.jpg"
+              bannerImage={portfolioConfig.banner}
               quote="Build • Ship • Learn • Repeat"
             />
           </Reveal>

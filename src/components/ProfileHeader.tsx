@@ -21,7 +21,7 @@ export default function ProfileHeader({
   name = portfolioConfig.name,
   age = portfolioConfig.age,
   title = portfolioConfig.title,
-  profileImage = `${portfolioConfig.socials.github}.png`,
+  profileImage = portfolioConfig.avatar,
   socialLinks = {
     twitter: portfolioConfig.socials.twitter,
     github: portfolioConfig.socials.github,

@@ -13,72 +13,9 @@ interface ExperienceItem {
   logoUrl?: string
 }
 
-const experiences: ExperienceItem[] = [
-  {
-    company: 'ArmorIQ',
-    position: 'Full Stack Engineer',
-    duration: 'February 2026 · Remote',
-    points: [
-      'Building ArmorIQ\'s AI agent security platform: intent enforcement, prompt injection protection, and cryptographic token verification across AI agents (Claude, Codex, OpenClaw)',
-      'Contributing to the TypeScript customer SDK (@armoriq/sdk): capturePlan, getIntentToken, invoke, and token delegation flows used by external developers',
-      'Working on ArmorClaude and ArmorCodex, security enforcement layers that wrap Claude Code and OpenAI Codex agents with fail-closed access control',
-      'Contributing to Conmap, an MCP endpoint discovery and vulnerability scanner with SAFE-MCP risk scoring and GPT-4o semantic analysis of tool descriptions',
-      'Ships across the full stack: SDK internals, backend APIs, and the platform dashboard at platform.armoriq.ai',
-    ],
-    href: 'https://armoriq.ai//',
-    logoUrl: '/armoriq-icon.svg',
-  },
-  {
-    company: 'PreciQube (IIT Madras Startup)',
-    position: 'Full Stack Developer Intern',
-    duration: 'November 2025 · December 2025',
-    points: [
-      'Built a browser-based 2D optics simulation platform for light ray tracing and visualization',
-      'Collaborated across a team of 3 engineers, 5 physicists, and a professor through daily syncs',
-      'Shipped a physics-based ray emission and tracing module integrated directly into the UI',
-      'Improved simulation responsiveness by ~20% in internal testing through frontend optimizations',
-    ],
-    href: 'https://www.preciqube.com/',
-    logoUrl: '/preciqube.jpeg',
-  },
-  {
-    company: 'Rabbitt Learning',
-    position: 'Technical Project Manager Intern',
-    duration: 'June 2025 – October 2025',
-    points: [
-      'Shipped multi-select preferences, browser-based video recording, and WhatsApp/email API integrations',
-      'Improved platform performance by 20% via Next.js and Supabase workflow optimizations',
-      'Built real-time scraping pipelines with Cloudflare Workers deployed to the edge',
-      'Increased feature adoption by 25% and coordinated delivery across frontend and backend',
-    ],
-    href: 'https://learning.rabbitt.ai/',
-    logoUrl: '/tech-icons/rabbitt_learning.svg',
-  },
-  {
-    company: 'AY-Labels',
-    position: 'Web Developer · Freelance',
-    duration: 'March 2025',
-    points: [
-      'Sole developer on a production website for a manufacturing label company',
-      'Handled the full engagement: discovery, design direction, development, and deployment',
-      'Delivered a fast, responsive site that became the company\'s primary digital storefront',
-    ],
-    href: 'https://www.indiamart.com/a-y-labels/',
-    logoUrl: '/ay-labels.webp',
-  },
-  {
-    company: 'Encryptix',
-    position: 'Front-End Intern',
-    duration: 'October 2024 – November 2024',
-    points: [
-      'Built responsive UI components with React, JavaScript, and CSS3',
-      'Reduced build time by 15% by identifying and fixing workflow inefficiencies in the codebase',
-      'Established strong fundamentals in component architecture and cross-browser compatibility',
-    ],
-    href: 'https://encryptix.in/',
-    logoUrl: '/encrytix.png',
-  },
-]
+import { portfolioConfig } from '@/config/portfolio'
+
+const experiences = portfolioConfig.experiences
 
 interface NoteState {
   exp: ExperienceItem

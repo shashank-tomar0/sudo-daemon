@@ -31,17 +31,19 @@ export interface BlogPost {
 
 export const portfolioConfig = {
   name: "Shashank Tomar",
-  age: "22",
+  age: "20",
   title: "Full Stack Developer • AI/ML Architect",
   githubUsername: "shashank-tomar0",
-  email: "shashanktomar.dev@gmail.com",
+  email: "shashanktomar912@gmail.com",
+  avatar: "/pfp.jpg",
+  banner: "/psudokit_banner.jpg",
   socials: {
     github: "https://github.com/shashank-tomar0",
     twitter: "https://x.com/shashank1tomar",
     linkedin: "https://www.linkedin.com/in/shashank1tomar",
     resume: "https://drive.google.com/file/d/1cbPntPjyYwh23XLYtcWEONPjq1s_XYou/view?usp=sharing",
-    mail: "mailto:shashanktomar.dev@gmail.com",
-    calendar: "mailto:shashanktomar.dev@gmail.com",
+    mail: "mailto:shashanktomar912@gmail.com",
+    calendar: "mailto:shashanktomar912@gmail.com",
   },
   bio: [
     "I'm a Programmer specializing in cutting-edge AI/ML integration and scalable full-stack architectures. I focus on building production-ready, high-performance systems that leverage advanced language models and robust backend pipelines.",
@@ -54,25 +56,26 @@ export const portfolioConfig = {
   ],
   experiences: [
     {
-      company: 'AI/ML SaaS & Full Stack Architect',
-      position: 'Indie Hacker & Freelance Developer',
-      duration: 'April 2025 · Present',
+      company: 'Technoledge',
+      position: 'AI Intern',
+      duration: 'April 2026 · Present',
       points: [
-        'Developing TalentScout-AI, a forensic resume evaluation engine designed to handle 25+ resumes in under 10 seconds with zero risk of prompt injections.',
-        'Building Veridian, a Celery-driven, high-fidelity Telegram fact-checking bot generating dynamic verdict receipts.',
-        'Architecting Next.js 15+ and FastAPI/Python backends deployed to cloud environments.'
+        'Developed and integrated an interactive AI chatbot for the company\'s website.',
+        'Worked on the Career Score Platform to assist recruiters in finding and matching the best candidates.'
       ],
-      logoUrl: '',
+      href: 'https://technoledgeindia.com',
+      logoUrl: '/technoledge.png',
     },
     {
-      company: 'ChronosGrid / ABES GO',
-      position: 'Lead Architecture Developer',
-      duration: 'August 2025 · December 2025',
+      company: 'Coding Arena',
+      position: 'Deep Learning Intern',
+      duration: 'February 2026 · April 2026',
       points: [
-        'Shipped an advanced college timetable management system to optimize faculty duties and schedules.',
-        'Wrote a Python parser in pandas/openpyxl to structure complex Excel spreadsheets into clean, queryable JSON schemas.',
-        'Built a custom workload scheduling recommender inside Next.js to flag and recommend duty swaps.'
-      ]
+        'Built an AI cost calculator extension for calculating developer costs.',
+        'Designed and implemented an autonomous AI scraping agent to collect detailed data about schools in Delhi for the ed-tech platform.'
+      ],
+      href: 'https://code-arena.in/',
+      logoUrl: '/codingarena.png',
     }
   ] as ExperienceItem[],
   projects: [
