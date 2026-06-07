@@ -35,8 +35,8 @@ export const portfolioConfig = {
   title: "Full Stack Developer • AI/ML Architect",
   githubUsername: "shashank-tomar0",
   email: "shashanktomar912@gmail.com",
-  avatar: "/pfp.jpg",
-  banner: "/psudokit_banner.jpg",
+  avatar: "/pfp-v2.jpg",
+  banner: "/psudokit_banner-v2.jpg",
   socials: {
     github: "https://github.com/shashank-tomar0",
     twitter: "https://x.com/shashank1tomar",
@@ -64,7 +64,7 @@ export const portfolioConfig = {
         'Worked on the Career Score Platform to assist recruiters in finding and matching the best candidates.'
       ],
       href: 'https://technoledgeindia.com',
-      logoUrl: '/technoledge.png',
+      logoUrl: '/technoledge-v2.png',
     },
     {
       company: 'Coding Arena',
@@ -75,7 +75,7 @@ export const portfolioConfig = {
         'Designed and implemented an autonomous AI scraping agent to collect detailed data about schools in Delhi for the ed-tech platform.'
       ],
       href: 'https://code-arena.in/',
-      logoUrl: '/codingarena.png',
+      logoUrl: '/codingarena-v2.png',
     }
   ] as ExperienceItem[],
   projects: [
