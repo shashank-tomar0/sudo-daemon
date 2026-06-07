@@ -69,33 +69,21 @@ export default function OpenSourceListClient({ items }: OpenSourceListClientProp
               </FadeInUp>
             </div>
 
-            {/* Own Projects */}
-            <FadeInUp delay={0.3}>
-              <h2 className="text-xs font-bold uppercase tracking-widest text-neutral-400 dark:text-neutral-500 mb-6">
-                Own Projects
-              </h2>
+            {/* Work in Progress */}
+            <FadeInUp delay={0.5}>
+              <div className="text-center py-12 sm:py-16">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-yellow-100 dark:bg-yellow-950 border border-yellow-400 dark:border-yellow-600 rounded-full mb-6">
+                  <span className="w-2.5 h-2.5 rounded-full bg-yellow-500 animate-pulse" />
+                  <span className="text-xs font-bold text-yellow-800 dark:text-yellow-200 uppercase tracking-widest">Work in Progress</span>
+                </div>
+                <h2 className="text-xl sm:text-2xl font-black text-black dark:text-white uppercase tracking-tight mb-4">
+                  Contributions Tracking Coming Soon
+                </h2>
+                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed font-medium max-w-lg mx-auto">
+                  We are integrating live tracking for repository metrics and upstream contributions. This interactive showcase will be activated shortly.
+                </p>
+              </div>
             </FadeInUp>
-            <div className="space-y-0 mb-20">
-              {own.map((item, index) => (
-                <FadeInUp key={item.id} delay={0.1 * index} duration={0.6}>
-                  <OwnProjectCard item={item} />
-                </FadeInUp>
-              ))}
-            </div>
-
-            {/* Contributions - grouped by repo */}
-            <FadeInUp delay={0.3}>
-              <h2 className="text-xs font-bold uppercase tracking-widest text-neutral-400 dark:text-neutral-500 mb-6">
-                Contributions
-              </h2>
-            </FadeInUp>
-            <div className="space-y-6">
-              {repoGroups.map((group, index) => (
-                <FadeInUp key={group.repo} delay={0.1 * index} duration={0.6}>
-                  <RepoCard group={group} />
-                </FadeInUp>
-              ))}
-            </div>
 
           </div>
         </div>

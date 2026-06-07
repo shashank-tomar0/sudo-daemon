@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚡ Sudo Daemon — Shashank Tomar's Developer Hub
+# ⚡ sudotom — Shashank Tomar's Developer Hub
 
-Welcome to the repository for **Sudo Daemon**, the developer portfolio and playground of **Shashank Tomar** ([@shashank-tomar0](https://github.com/shashank-tomar0)). Shashank is a Full Stack Developer and AI/ML Architect specializing in building scalable AI-integrated systems, robust web platforms, and automated agents.
+Welcome to the repository for **sudotom**, the developer portfolio and playground of **Shashank Tomar** ([@shashank-tomar0](https://github.com/shashank-tomar0)). Shashank is a Full Stack Developer and AI/ML Architect specializing in building scalable AI-integrated systems, robust web platforms, and automated agents.
 
 [![Next.js](https://img.shields.io/badge/Next.js-15+-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)

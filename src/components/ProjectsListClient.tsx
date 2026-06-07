@@ -44,9 +44,25 @@ export default function ProjectsListClient({ projects }: ProjectsListClientProps
           {/* Section Transition */}
           <div className="w-full h-8 sm:h-12 lg:h-16 bg-gradient-to-b from-neutral-50/30 dark:from-neutral-900/30 to-neutral-100 dark:to-[#161616]"></div>
 
-          {/* Masonry Grid */}
-          <div className="relative">
-            <MasonryGrid projects={projects} />
+          {/* Work in Progress Banner */}
+          <div className="max-w-4xl mx-auto px-6 py-16 sm:py-20 text-center">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="neo-card p-8 sm:p-12 bg-white dark:bg-black border-2 border-black dark:border-white inline-block max-w-lg"
+            >
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-yellow-100 dark:bg-yellow-950 border border-yellow-400 dark:border-yellow-600 rounded-full mb-6">
+                <span className="w-2.5 h-2.5 rounded-full bg-yellow-500 animate-pulse" />
+                <span className="text-xs font-bold text-yellow-800 dark:text-yellow-200 uppercase tracking-widest">Work in Progress</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-black dark:text-white uppercase tracking-tight mb-4">
+                Projects Showcase Coming Soon
+              </h2>
+              <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed font-medium">
+                We are currently curating and documenting our proof-of-work project showcase. Stay tuned — detailed case studies and repositories will be added here shortly.
+              </p>
+            </motion.div>
           </div>
         </div>
   )
