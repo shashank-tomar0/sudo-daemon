@@ -5,6 +5,7 @@ import MinimalNavigation from '@/components/MinimalNavigation'
 import OnekoCat from '@/components/OnekoCat'
 import { FadeInUp } from '@/components/ui/PageTransitions'
 import { OpenSourceItem } from '@/data/opensource'
+import ConstructionBanner from '@/components/ConstructionBanner'
 
 interface OpenSourceListClientProps {
   items: OpenSourceItem[]
@@ -70,20 +71,7 @@ export default function OpenSourceListClient({ items }: OpenSourceListClientProp
             </div>
 
             {/* Work in Progress */}
-            <FadeInUp delay={0.5}>
-              <div className="text-center py-12 sm:py-16">
-                <div className="inline-flex items-center gap-2 px-3 py-1 bg-yellow-100 dark:bg-yellow-950 border border-yellow-400 dark:border-yellow-600 rounded-full mb-6">
-                  <span className="w-2.5 h-2.5 rounded-full bg-yellow-500 animate-pulse" />
-                  <span className="text-xs font-bold text-yellow-800 dark:text-yellow-200 uppercase tracking-widest">Work in Progress</span>
-                </div>
-                <h2 className="text-xl sm:text-2xl font-black text-black dark:text-white uppercase tracking-tight mb-4">
-                  Contributions Tracking Coming Soon
-                </h2>
-                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed font-medium max-w-lg mx-auto">
-                  We are integrating live tracking for repository metrics and upstream contributions. This interactive showcase will be activated shortly.
-                </p>
-              </div>
-            </FadeInUp>
+            <ConstructionBanner />
 
           </div>
         </div>

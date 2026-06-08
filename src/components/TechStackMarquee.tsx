@@ -59,7 +59,9 @@ function TechIcon({ tech, className = "" }: TechIconProps) {
             alt={tech.name}
             width={40}
             height={40}
-            className="w-full h-full object-contain grayscale opacity-70 hover:opacity-90 transition-opacity"
+            className={`w-full h-full object-contain grayscale opacity-70 hover:opacity-90 transition-opacity ${
+              tech.name === "Next.js" ? "dark:invert" : ""
+            }`}
             onError={(e) => {
               // If image fails to load, replace with grey placeholder
               const target = e.target as HTMLImageElement;
