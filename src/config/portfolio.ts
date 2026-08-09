@@ -36,7 +36,7 @@ export const portfolioConfig = {
   githubUsername: "shashank-tomar0",
   email: "shashanktomar912@gmail.com",
   avatar: "/pfp-v2.jpg",
-  banner: "/psudokit_banner-v2.jpg",
+  banner: "/10fff3d7a60635465dae82aedc84a12c.jpg",
   socials: {
     github: "https://github.com/shashank-tomar0",
     twitter: "https://x.com/shashank1tomar",
